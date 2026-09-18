@@ -1,0 +1,9 @@
+interface:
+  display_name: "Manuscript References"
+  short_description: "快速整理引用，链接正文与文末文献并生成Excel主表"
+  default_prompt: "使用 $manuscript-references 的快速模式处理这篇Word正文：核验句后文献、替换为可点击跳转到文末条目的指定格式正文引用、生成文末参考文献，并返回修改后的Word和参考文献Excel主表。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#3559A6"
+policy:
+  allow_implicit_invocation: true
